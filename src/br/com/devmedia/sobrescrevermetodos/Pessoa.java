@@ -1,4 +1,4 @@
-package br.com.devmedia.subscrevermetodos;
+package br.com.devmedia.sobrescrevermetodos;
 
 public class Pessoa {
 
@@ -19,6 +19,10 @@ public class Pessoa {
 
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
+	}
+
+	public void imprime(String cor, String tipo) {
+		
 	}
 
 }
