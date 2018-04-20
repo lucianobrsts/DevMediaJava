@@ -9,12 +9,15 @@ public class Pessoa {
 
 	public Pessoa() {
 		super();
+		System.out.println("Pessoa...");
 	}
 
 	public Pessoa(String nome, int idade) {
-		super();
+		// super();
+		this();
 		this.nome = nome;
 		this.idade = idade;
+		System.out.println("Nome e idade");
 	}
 
 	public Pessoa(String nome, String sobrenome, int idade, char sexo) {
