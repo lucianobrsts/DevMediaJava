@@ -13,43 +13,49 @@ public class Aula {
 		// p.getSobrenome(),
 		// p.getIdade().getAnos(), p.getIdade().getMeses(), p.getIdade().getDias());
 
-		System.out.println("Multiplicação = " + new Aula().getCalculo(9, 5));
+		// System.out.println("Multiplicação = " + new Aula().getCalculo(9, 5));
+
+		Calculo c = new Calculo();
+
+		System.out.println("Soma = " + c.somar(10, 5));
+
+		System.out.println("Multiplica = " + c.multiplicar(10, 5));
 
 	}
 
-	int getCalculo(int x, int y) {
-
-		System.out.println("Valor de X = " + x);
-
-		System.out.println("Valor de Y = " + y);
-		
-		int z = 10;
-
-		class Calculo {
-
-			private int a;
-			private int b;
-
-			Calculo() {
-
-			}
-
-			Calculo(int a, int b) {
-				this.a = a;
-				this.b = b;
-			}
-
-			int soma() {
-				return x + y;
-			}
-
-			int multiplicar() {
-				return a * b * z;
-			}
-		}
-
-		System.out.println("Soma = " + new Calculo().soma());
-		
-		return new Calculo(10, 2).multiplicar();
-	}
+	// int getCalculo(int x, int y) {
+	//
+	// System.out.println("Valor de X = " + x);
+	//
+	// System.out.println("Valor de Y = " + y);
+	//
+	// int z = 10;
+	//
+	// class Calculo {
+	//
+	// private int a;
+	// private int b;
+	//
+	// Calculo() {
+	//
+	// }
+	//
+	// Calculo(int a, int b) {
+	// this.a = a;
+	// this.b = b;
+	// }
+	//
+	// int soma() {
+	// return x + y;
+	// }
+	//
+	// int multiplicar() {
+	// return a * b * z;
+	// }
+	// }
+	//
+	// System.out.println("Soma = " + new Calculo().soma());
+	//
+	// return new Calculo(10, 2).multiplicar();
+	// }
 }
